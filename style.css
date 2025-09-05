@@ -1,0 +1,133 @@
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fdfdfd;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #a8dadc;
+  color: #1d3557;
+  text-align: center;
+  padding: 30px 15px;
+  border-bottom: 4px solid #457b9d;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+}
+
+header p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+.nav-btn {
+  background: #f1faee;
+  color: #1d3557;
+  padding: 8px 15px;
+  border-radius: 25px;
+  margin: 0 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.nav-btn:hover {
+  background: #457b9d;
+  color: white;
+}
+
+/* Sections */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #457b9d;
+}
+
+/* Buttons */
+.main-btn {
+  background: #ffb4a2;
+  color: #1d3557;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s, background 0.3s;
+  margin-top: 20px;
+}
+
+.main-btn:hover {
+  background: #e5989b;
+  transform: scale(1.1);
+}
+
+/* Skills */
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.skill {
+  background: #f1faee;
+  padding: 15px 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s, background 0.3s;
+  font-weight: 600;
+}
+
+.skill:hover {
+  transform: translateY(-5px);
+  background: #a8dadc;
+  color: #1d3557;
+}
+
+/* Contact Links */
+#contact a {
+  color: #457b9d;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background: #1d3557;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+/* Responsive */
+@media(max-width: 768px){
+  header h1 { font-size: 2rem; }
+  .skills-grid { flex-direction: column; align-items: center; }
+}
