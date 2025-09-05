@@ -30,3 +30,5 @@ Contact → Email & LinkedIn integration
 🎨 CSS – Styling with pastel colors
 
 ⚡ JavaScript – Interactivity
+
+![Image](ss.png)
